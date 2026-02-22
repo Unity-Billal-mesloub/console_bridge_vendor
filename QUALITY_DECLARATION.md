@@ -70,10 +70,6 @@ All pull requests must resolve related documentation changes before merging.
 
 `console_bridge_vendor` does not have an API and therefore does not require API documentation.
 
-### License [3.iii]
-
-The license for `console_bridge_vendor` is Apache 2.0, and a summary is in each source file, the type is declared in the [`package.xml`](./package.xml) manifest file, and a full copy of the license is in the `LICENSE` file.
-The license of the vendored library, `libconsole-bridge-dev`, is BSD as stated in its quality declaration document (Section 5.iii).
 
 ### Copyright Statements [3.iv]
 
@@ -121,7 +117,7 @@ Current nightly results can be seen here:
 
 ### Direct Runtime non-ROS Dependency [5.iii]
 
-`console_bridge_vendor` depends directly on the external dependency `libconsole-bridge-dev`, which is qualified as quality level 2 in its [Quality Declaration](https://github.com/ros/console_bridge/blob/master/QUALITY_DECLARATION.md).
+`console_bridge_vendor` depends directly on the external dependency `libconsole-bridge-dev`, which is qualified as quality level 2 in its [Quality Declaration](https://github.com/Unity-Billal-mesloub/console_bridge/blob/master/QUALITY_DECLARATION.md).
 
 ## Platform Support [6]
 
